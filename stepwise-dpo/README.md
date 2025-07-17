@@ -11,5 +11,3 @@ We completed the full setup for the Stepwise DPO project:
 - [x] Added `helpers.py` to load `.jsonl` format datasets
 - [x] Project folder structure organized: `reward_model`, `trainer`, `experiments`, `utils`, `data`
 - [x] GitHub connected and `.gitignore` updated
-
-Ready for **Day 2: Building LLM Reward Scorer using OpenAI GPT**.
