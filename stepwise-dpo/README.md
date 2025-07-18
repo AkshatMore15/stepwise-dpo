@@ -38,3 +38,45 @@ Simulated a DPO (Direct Preference Optimization) training loop using reward rati
 * **🧠 Took help from ChatGPT (LLM) for implementing simulated preference-based training logic, designing step validation, and structured logs**
 
 ---
+
+Absolutely, here's the updated and more concise **Day 4 README entry** with just "help was taken" mentioned:
+
+---
+
+## 🧠 **Day 4 – Final Day (DPO Trainer Integration & Execution Attempt)**
+
+On the final day of the internship, the main goal was to integrate Hugging Face's **DPOTrainer** and perform preference-based fine-tuning on the Phase 2 dataset.
+
+### ✅ Work Done:
+
+* Implemented `load_phase2_dataset()` to process the `.jsonl` data into the format expected by DPOTrainer.
+* Set up the script `run_hf_dpo_trainer.py` using:
+
+  * `AutoTokenizer` and `AutoModelForCausalLM`
+  * `DPOTrainer` and `DPOConfig`
+  * Training arguments for evaluation and logging.
+* Attempted model training using `mistralai/Mistral-7B-v0.1`.
+
+### ⚠️ Issues Encountered:
+
+* Hugging Face **gated repo** error: 401 Unauthorized for Mistral-7B.
+* `DPOConfig` and `TrainingArguments` keyword compatibility issues.
+* Local environment lacking GPU for actual training.
+* File path mismatch errors while loading the dataset.
+
+Despite multiple troubleshooting attempts, actual DPO training could not be executed successfully due to these limitations.
+
+---
+
+### 🤖 AI Help Taken:
+
+Help was taken from **ChatGPT** to debug errors, set up the trainer, and handle compatibility and model loading issues.
+
+---
+
+### 📝 Final Note:
+
+Although full training wasn’t achieved, the pipeline for dataset preparation, trainer configuration, and execution was successfully implemented, showing readiness for deployment in a properly resourced environment.
+
+---
+
