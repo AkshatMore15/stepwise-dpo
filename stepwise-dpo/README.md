@@ -39,10 +39,6 @@ Simulated a DPO (Direct Preference Optimization) training loop using reward rati
 
 ---
 
-Absolutely, here's the updated and more concise **Day 4 README entry** with just "help was taken" mentioned:
-
----
-
 ## 🧠 **Day 4 – Final Day (DPO Trainer Integration & Execution Attempt)**
 
 On the final day of the internship, the main goal was to integrate Hugging Face's **DPOTrainer** and perform preference-based fine-tuning on the Phase 2 dataset.
